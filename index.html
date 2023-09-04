@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="light">
+<html lang="pt-br">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -7,10 +7,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
       rel="stylesheet"
     />
+
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevLinks</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/link.icon" />
   </head>
   <body>
     <div id="container">
@@ -21,48 +24,54 @@
         />
         <p>@BickRenan</p>
       </div>
+
       <div id="switch" onclick="toggleMode()">
         <button></button>
         <span></span>
       </div>
+
       <ul>
         <li>
-          <a href="#" target="_blank">Ver meu portifólio</a>
+          <a href="https://bickrenan-portifolio.netlify.app/" target="_blank">Ver meu portifólio</a>
         </li>
         <li>
-          <a href="#" target="_blank">Conhecer meu GitHub</a>
+          <a href="https://github.com/postrenan" target="_blank">Conhecer meu GitHub</a>
         </li>
         <li>
-          <a href="#" target="_blank">Entrar em contato</a>
+          <a href="https://api.whatsapp.com/send?phone=5555997038314&text=Olá, gostaria de saber mais sobre seus serviços" target="_blank">Entrar em contato</a>
         </li>
         <li>
-          <a href="#" target="_blank">Base do projeto</a>
+          <a href="https://app.rocketseat.com.br/discover" target="_blank">Base do projeto</a>
         </li>
       </ul>
+
       <div id="social-links">
-        <a href="" target="_blank">
-          <ion-icon name="logo-github"></ion-icon>
-        </a>
-        <a href="" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/renan-vinicius-nikodem-bick/"
+          target="_blank">
           <ion-icon name="logo-linkedin"></ion-icon>
         </a>
-        <a href="" target="_blank">
+        <a href="https://www.instagram.com/bickrenan/" target="_blank">
           <ion-icon name="logo-instagram"></ion-icon>
         </a>
-        <a href="" target="_blank">
+        <a href="https://www.twitch.tv/alemao_dev" target="_blank">
           <ion-icon name="logo-twitch"></ion-icon>
         </a>
-        <a href="" target="_blank">
+        <a href="https://github.com/postrenan?tab=repositories" target="_blank">
           <ion-icon name="logo-github"></ion-icon>
         </a>
       </div>
+
       <footer>
         Planejado pela <a href="https://rocketseat.com.br">Rocketseat</a> e
         desenvolvolvido por
         <a href="https://github.com/postrenan">@bickrenan</a>
       </footer>
     </div>
-    <script nomodule src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    <script src="script.js" ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
